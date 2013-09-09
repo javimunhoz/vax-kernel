@@ -1,0 +1,7 @@
+load -r bin/ka655x.bin
+set  cpu 64m
+set  rq0 ra92
+at   rq0 conf/my.dsk
+set  rq1 cdrom
+at   rq1 build/build.iso
+boot cpu
